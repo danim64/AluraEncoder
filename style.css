@@ -38,7 +38,7 @@ main {
 
 
 .mensaje {
-    background:  url("/imagenes/Muneco.png") no-repeat;
+    background:  url("./imagenes/Muneco.png") no-repeat;
     border: none;
     color: #0A3871;
 
