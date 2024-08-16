@@ -1,0 +1,212 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f3f5fc;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+
+::placeholder {
+    color: #0A3871;}
+    .text-area:focus {
+        outline: none;
+    }
+
+
+.mensaje {
+    background:  url("/imagenes/Muneco.png") no-repeat;
+    border: none;
+    color: #0A3871;
+
+
+}
+.mensaje:focus {
+    outline:none,
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 2.2rem;
+    margin-left: 0.93rem;
+    width: 100%;
+}
+
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 2.2rem;
+    width: 90%;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    display: none;
+    
+
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+}
+
+.section-l {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 20px;
+    padding-left: 20px;
+    gap: 10px;
+    
+
+
+}
+
+.section-l h4{
+    font-size: 0.8rem;
+    color: #343a40;
+    background-color: white;
+    font-weight: bold;
+}
+
+.section-l p {
+    
+    font-size: 0.5rem;
+    line-height: 24px;
+    color: #000;
+    background-color: white;
+
+ }
+
+ .informacion {
+    display: flex;
+    align-items: center;
+ }
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 70%;
+    }
+
+    .btn-encriptar {
+        background-color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        height: 2.2rem;
+        max-width: 328px;
+    }   
+    .btn-desencriptar {
+        background-color: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 10px;
+        max-width: 328px;
+    }
+    body {
+        width: 768px;
+    }
+    .section-l {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        border-radius: 24px;
+        margin-top: 20px;
+  
+    
+    }
+    .mensaje {
+        background:  none;
+        border: none;
+        color: #0A3871;
+        height: 2em;
+        width: 10%;
+    
+    }
+
+    .text-area {
+        height: 13em;
+        width: 80%;
+    }
+    
+    }
+
+
+
+    @media (max-width: 375px) {
+        .botones {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 10%;
+
+            margin-top: 18px;
+        }
+        .btn-encriptar {
+            height: 2.2rem;
+            max-width: 328px;
+        }   
+        .btn-desencriptar {
+            height: 2.2rem;
+            max-width: 328px;
+            margin-left: 2px;
+            margin-top: 15px;
+            
+        }
+
+    }
